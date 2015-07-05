@@ -12,6 +12,7 @@ public class LCM
         int[] numbers = new int[args.Length];
         for (int i = 0; i < args.Length; i++)
         {
+            Console.WriteLine(args[i]);
             numbers[i] = int.Parse(args[i]);
             Console.WriteLine(numbers[i]);
         }
