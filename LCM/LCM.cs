@@ -8,7 +8,7 @@ public class LCM
         int[] numbers = new int[args.Length];
         for (int i = 0; i < args.Length; i++)
         {
-            numbers[i] = Int.Parse(args[0]);
+            numbers[i] = int.Parse(args[0]);
         }
     }
 
